@@ -79,7 +79,7 @@ Agents communicate only via defined data contracts (Parquet/Arrow).  No hidden s
 | ---------------------- | -------- | --------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------- |
 | **P0 Bootstrap**       | 2 wks    | Fetch & place live test order           | Repo skeleton, DataAgent, ExecutionAgent (testnet).                      | Demonstrable “tip-to-tail” trade loop.                   |
 | **P1 Live MVP**        | 4 wks    | 7 day unattended run                    | Momentum signal, basic risk, AuditAgent, CLI report.                     | First publicly verifiable micro-track-record.            |
-| **P2 Robustness**      | 8 wks    | 99 % loop uptime                        | Walk-forward resear­ch suite, stop-loss, fail-over, alerting.            | Post-mortem write-up suitable for recruiter / allocator. |
+| **P2 Robustness**      | 8 wks    | 99 % loop uptime                        | Walk-forward resear­ch suite, stop-loss, fail-over, alerting.             | Post-mortem write-up suitable for recruiter / allocator. |
 | **P3 Multi-Strategy**  | 3 mo     | Portfolio IR stable vs. OOS             | Second uncorrelated strat, portfolio allocator, Streamlit dash.          | Evidence of PM skill: allocation & risk budgeting.       |
 | **P4 Asset Expansion** | 3 mo     | Equity or REIT module passes unit tests | Adapt data + execution layers; slippage & fee modelling for lit markets. | Demonstrated portability beyond crypto.                  |
 
